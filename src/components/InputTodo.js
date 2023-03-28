@@ -16,7 +16,7 @@ const InputTodo = ({ addToDoItem }) => {
       setTitle('');
       setMessage('');
     } else {
-      setMessage('Please enter a title');
+      setMessage('Please enter an item');
     }
   };
   return (
