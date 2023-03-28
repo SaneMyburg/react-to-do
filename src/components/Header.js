@@ -1,6 +1,6 @@
 const Header = () => (
-  <header>
-    <h1>todos</h1>
+  <header className="header">
+    <h1 className="title">todos</h1>
     <p>Items will persist in the browser local storage</p>
   </header>
 );
