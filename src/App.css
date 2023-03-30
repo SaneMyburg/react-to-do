@@ -25,7 +25,21 @@ a {
 
 .wrapper {
   width: 100%;
-  padding: 8rem 20px 3rem;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style-type: none;
+  background-color: rgb(114, 114, 247);
+  padding: 1em 1em;
+  box-shadow: 0 5px 8px 0 rgba(6, 6, 6, 0.2);
+}
+
+.navlist li a {
+  color: lightgray;
+  font-size: 20px;
 }
 
 .header {
@@ -47,7 +61,7 @@ a {
 
 .todos {
   max-width: 580px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .form-container {
